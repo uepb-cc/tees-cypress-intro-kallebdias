@@ -2,7 +2,7 @@
 
 Funcionalidade: Swag Labs
     Como um usuario do Swag Labs,
-    Eu Quero realizar login no site.
+    Eu quero realizar login no site.
 
   Contexto:
     Dado Eu entro na URL Base

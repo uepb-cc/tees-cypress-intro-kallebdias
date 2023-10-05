@@ -1,0 +1,27 @@
+{
+  "name": "tees-cypress-intro-kallebdias",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/W35TTSVD)\r [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11675170&assignment_repo_type=AssignmentRepo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --record --key 6d6e03c5-33ba-41ca-8621-759370d5acd2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kallebdias: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@github.com/uepb-tees/tees-cypress-intro-kallebdias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uepb-tees/tees-cypress-intro-kallebdias/issues"
+  },
+  "homepage": "https://github.com/uepb-tees/tees-cypress-intro-kallebdias#readme",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  }
+}

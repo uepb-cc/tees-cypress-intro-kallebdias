@@ -9,3 +9,5 @@ Funcionalidade: Swag Labs
   Cenario: Adicionmar e remover do carrinho
     Quando Eu clico no produto
     E Eu clico em adicionar ao carrinho
+    E Eu clico no carrinho
+    Entao Eu devo ver os produtos adicionados

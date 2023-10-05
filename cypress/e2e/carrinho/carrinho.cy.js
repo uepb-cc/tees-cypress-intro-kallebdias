@@ -12,5 +12,14 @@ When("Eu clico no produto", () => {
 })
 
 When("Eu clico em adicionar ao carrinho", () => {
-    cy.get('.btn_primary').click()
+    cy.get(':nth-child(1) > .pricebar > .btn_primary').click()
+    cy.get(':nth-child(3) > .pricebar > .btn_primary').click()
+})
+
+When("Eu clico no carrinho", () => {
+    cy.get('.shopping_cart_container').click()
+})
+
+Then("Eu devo ver os produtos adicionados", () => {
+    cy.get('.fa-layers-counter').should('contain', 2)
 })

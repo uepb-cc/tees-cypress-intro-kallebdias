@@ -1,6 +1,6 @@
 import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
 
-Given("Eu entro na URL Base", () => {
+Given("Eu estou logado no site", () => {
     cy.visit("/");
     cy.get('[data-test="username"]').type('standard_user')
     cy.get('[data-test="password"]').type('secret_sauce')

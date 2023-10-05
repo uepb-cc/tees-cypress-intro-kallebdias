@@ -4,7 +4,7 @@ Funcionalidade: Swag Labs
     Fazer compras no Swag Labs
 
   Contexto:
-    Dado Eu entro na URL Base
+    Dado Eu estou logado no site
 
   Cenario: Adicionar ao carrinho
     Quando Eu clico em adicionar ao carrinho

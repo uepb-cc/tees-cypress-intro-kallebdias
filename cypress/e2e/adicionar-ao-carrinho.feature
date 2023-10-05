@@ -6,8 +6,7 @@ Funcionalidade: Swag Labs
   Contexto:
     Dado Eu entro na URL Base
 
-  Cenario: Adicionmar e remover do carrinho
-    Quando Eu clico no produto
-    E Eu clico em adicionar ao carrinho
+  Cenario: Adicionar ao carrinho
+    Quando Eu clico em adicionar ao carrinho
     E Eu clico no carrinho
     Entao Eu devo ver os produtos adicionados

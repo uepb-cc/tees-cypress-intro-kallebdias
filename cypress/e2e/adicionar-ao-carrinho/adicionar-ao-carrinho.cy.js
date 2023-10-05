@@ -7,10 +7,6 @@ Given("Eu entro na URL Base", () => {
     cy.get('#login-button').click()
 })
 
-When("Eu clico no produto", () => {
-    cy.get('#item_4_title_link > .inventory_item_name')
-})
-
 When("Eu clico em adicionar ao carrinho", () => {
     cy.get(':nth-child(1) > .pricebar > .btn_primary').click()
     cy.get(':nth-child(3) > .pricebar > .btn_primary').click()
